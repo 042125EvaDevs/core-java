@@ -1,0 +1,15 @@
+{
+  "name": "@core-java/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {
+    "sprint": "0.0.1-beta.0"
+  },
+  "devDependencies": {
+    "@dcat23/nx-concept": "0.0.1-beta.1",
+    "@nx/workspace": "20.8.1",
+    "nx": "20.8.1"
+  }
+}
