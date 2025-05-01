@@ -26,9 +26,12 @@ git checkout -b <your-name>
 ```
 > This is where you will implement your code changes
 
+**Open the `concepts/` folder in your IDE**
+> IntelliJ should prompt to __`Load Maven Project`__ as necessary
+
 ## Development Tools
 - [Git - _version control_](https://git-scm.com/downloads)
-- [VS Code - _code editor_](https://code.visualstudio.com/download)
+- [IntelliJ - _code editor_](https://www.jetbrains.com/idea/download)
 
 
 ## Download updates from Github
