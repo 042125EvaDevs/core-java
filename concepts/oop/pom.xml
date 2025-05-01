@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>xyz.catuns.eva</groupId>
-    <artifactId>card-game</artifactId>
+    <artifactId>oop</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>card-game</name>
+    <name>oop</name>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

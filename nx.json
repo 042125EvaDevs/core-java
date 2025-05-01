@@ -17,6 +17,10 @@
     }
   ],
   "generators": {
-    "@dcat23/nx-concept": {}
+    "@dcat23/nx-concept": {
+      "java" : {
+        "groupId": "xyz.catuns.eva"
+      }
+    }
   }
 }

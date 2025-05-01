@@ -7,10 +7,20 @@ Each concept is explained clearly and followed by targeted practice challenges a
 
 [//]: # 'concepts-start'
 
-
-##  [Oop](./concepts/card-game/src/main/java/com/example/oop/Oop.java):
+## [Card Game](card-game/src/main/java/xyz/catuns/eva/cardgame/Main.java)
 
 A sample card game
+
+### Concept:
+
+### Practice:
+
+---
+
+
+##  [Oop](oop/src/main/java/xyz/catuns/oop/Oop.java):
+
+Object Oriented programming
 
 ### Concept:
 
