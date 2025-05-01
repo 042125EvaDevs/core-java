@@ -1,15 +1,25 @@
 package xyz.catuns.eva.cardgame;
 
-import xyz.catuns.eva.cardgame.rules.Rule;
-
-import java.util.Arrays;
+import xyz.catuns.eva.cardgame.rule.RulesOfWar;
 
 public class WarGame extends Game {
 
-    Rule rule;
 
-    @Override
-    public void nextTurn() {
+
+  public WarGame() {
+    this.rule = new RulesOfWar();
+
+    /**
+     * Creates the array of players.
+     * Sets the max players based on the`RulesOfWar` maximum players
+     *
+     * Ensures that we do not have too many players
+     */
+    this.players = new Player[this.rule.getMaxPlayers()];
+  }
+
+  @Override
+  public void nextTurn() {
       System.out.println("Doing next turn");
 
       /**
@@ -20,23 +30,12 @@ public class WarGame extends Game {
        * -
        */
 
-//      rule.shuffle()
-
+      this.running = false;
     }
 
-    @Override
-    public void showResult() {
+  @Override
+  public void showResult() {
 
-    }
+  }
 
-    @Override
-    public void createDeck() {
-
-      Arrays.stream(Suit.values()).forEach((suit) -> {
-          // enhanced for loop
-          for (Rank rank : Rank.values()) {
-              this.deck.addCard(new Card(suit, rank));
-          }
-      });
-    }
 }
