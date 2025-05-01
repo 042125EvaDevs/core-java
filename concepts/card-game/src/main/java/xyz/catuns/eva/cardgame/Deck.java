@@ -1,5 +1,7 @@
 package xyz.catuns.eva.cardgame;
 
+import xyz.catuns.eva.cardgame.card.Card;
+
 import java.util.ArrayList;
 
 public class Deck {
@@ -29,12 +31,7 @@ public class Deck {
         this.cards.remove(card);
     }
 
-
-//    /**
-//     * Todo: find card by rank and suit name
-//     * @param rankName
-//     * @param suitName
-//     */
-//    public void removeCard(String rankName, String suitName) {
-//    }
+    public void shuffle() {
+      throw new RuntimeException("Deck.shuffle() Not implemented");
+    }
 }

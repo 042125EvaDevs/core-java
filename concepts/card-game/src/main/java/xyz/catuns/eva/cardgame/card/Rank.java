@@ -1,4 +1,4 @@
-package xyz.catuns.eva.cardgame;
+package xyz.catuns.eva.cardgame.card;
 
 public enum Rank {
   ACE("ace", 0),
