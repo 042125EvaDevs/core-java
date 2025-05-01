@@ -1,8 +1,11 @@
 package xyz.catuns.eva.cardgame;
 
+import xyz.catuns.eva.cardgame.rules.Rule;
+
 public abstract class Game {
 
     protected final Deck deck;
+    protected Rule rule;
     protected boolean running;
 
     public Game(Deck deck) {
@@ -15,11 +18,12 @@ public abstract class Game {
 
     public abstract void nextTurn();
     public abstract void showResult();
-    public abstract void createDeck();
+    public abstract void createDeck(); // this can be protected/ No usecase outside of the child class
 
     public void setup() {
         System.out.println("Setting up deck");
         this.createDeck();
+
     }
 
     public final void start() {

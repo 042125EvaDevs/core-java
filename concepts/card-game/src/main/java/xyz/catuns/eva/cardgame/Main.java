@@ -5,6 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+
         Game game = new WarGame();
 
         game.setup();
@@ -22,16 +23,17 @@ public class Main {
          * `Suit` and `Rank`
          *
          */
+
+
 //        Suit spade = new Suit("spade", "black");
 //        Suit heart = new Suit("heart", "red");
 //        Rank ace = new Rank("ace");
 //        Rank two = new Rank("two");
 //
-//        Card aceOfSpades = new Card(spade, ace);
+
+
+//        CardClassObject aceOfSpades = new CardClassObject(, Rank.ACE);
 //        Card twoOfHearts = new Card(heart, two);
-
-
-
 
 
         // Prints `Ace of spades`

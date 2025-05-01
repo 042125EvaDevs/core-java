@@ -1,32 +1,33 @@
 package xyz.catuns.eva.cardgame;
 
-public class Rank {
+public enum Rank {
+  ACE("ace", 0),
+  TWO("two", 1),
+  THREE("three", 2),
+  FOUR("four", 3),
+  FIVE("five", 4),
+  SIX("six", 5),
+  SEVEN("seven", 6),
+  EIGHT("eight", 7),
+  NINE("nine", 8),
+  TEN("ten", 9),
+  JACK("jack", 10),
+  QUEEN("queen", 11),
+  KING("king", 12);
 
-    private final String name;
+  private final String name;
+  private final int value;
 
-    public Rank(String name) {
-        this.name = name;
-    }
+  Rank(String name, int value) {
+    this.name = name;
+    this.value = value;
+  }
 
-    public static Rank[] createDefaults() {
-        return new Rank[] {
-                new Rank("ace"),
-                new Rank("two"),
-                new Rank("three"),
-                new Rank("four"),
-                new Rank("five"),
-                new Rank("six"),
-                new Rank("seven"),
-                new Rank("eight"),
-                new Rank("nine"),
-                new Rank("ten"),
-                new Rank("jack"),
-                new Rank("queen"),
-                new Rank("king")
-        };
-    }
+  public String getName() {
+    return this.name;
+  }
 
-    public String getName() {
-        return name;
-    }
+
+
+
 }

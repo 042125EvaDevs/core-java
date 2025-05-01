@@ -1,11 +1,16 @@
 package xyz.catuns.eva.cardgame;
 
-public class Suit {
+public enum Suit {
+    SPADE("spade", "black"),
+    CLUB("club", "black"),
+    HEART("heart", "red"),
+    DIAMOND("diamond", "red");
+
 
     private final String name;
     private final String color;
 
-    public Suit (String name, String color){
+    Suit (String name, String color){
         this.name = name;
         this.color = color;
     }
@@ -18,14 +23,5 @@ public class Suit {
         return color;
     }
 
-
-    public static Suit[] createDefaults() {
-        return new Suit[] {
-                new Suit("spade", "black"),
-                new Suit("club", "black"),
-                new Suit("heart", "red"),
-                new Suit("diamond", "red")
-        };
-    }
 
 }

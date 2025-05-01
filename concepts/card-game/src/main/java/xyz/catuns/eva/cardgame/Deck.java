@@ -2,7 +2,8 @@ package xyz.catuns.eva.cardgame;
 
 import java.util.ArrayList;
 
-public class Deck{
+public class Deck {
+
     /**
      * Requirements:
      *
@@ -29,11 +30,11 @@ public class Deck{
     }
 
 
-    /**
-     * Todo: find card by rank and suit name
-     * @param rankName
-     * @param suitName
-     */
-    public void removeCard(String rankName, String suitName) {
-    }
+//    /**
+//     * Todo: find card by rank and suit name
+//     * @param rankName
+//     * @param suitName
+//     */
+//    public void removeCard(String rankName, String suitName) {
+//    }
 }
