@@ -1,0 +1,8 @@
+{
+  "name": "practice",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "concepts/practice",
+  "// targets": "to see all targets run: nx show project practice --web",
+  "targets": {}
+}

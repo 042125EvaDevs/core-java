@@ -28,6 +28,17 @@ Object Oriented programming
 
 ---
 
+
+##  [Encapsulation](./concepts/practice/src/main/java/xyz/catuns/eva/encapsulation/Encapsulation.java):
+
+Create a `BankAccount` class witl private fields for account number, balance and account holder
+
+### Concept:
+
+### Practice:
+
+---
+
 [//]: # 'concepts-end'
 
 ---
@@ -35,6 +46,15 @@ Object Oriented programming
 # 🧩 Mini Challenges
 
 [//]: # 'challenges-start'
+
+## Challenge: [Encapsulation](./concepts/practice/src/main/java/xyz/catuns/eva/encapsulation/Encapsulation.java):
+
+### Goal:
+Create a `BankAccount` class with private fields for account number, balance and account holder's name. They should implement public getter and setter methods to access and modify these fields.
+
+### Goal
+Design a `Student` class with private attributes like name, ID and grades. Implement methods to add, update and 
+retrieve student information.
 
 [//]: # 'challenges-end'
 
