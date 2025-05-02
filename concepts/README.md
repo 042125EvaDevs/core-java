@@ -18,7 +18,7 @@ A sample card game
 ---
 
 
-##  [Oop](oop/src/main/java/xyz/catuns/oop/Oop.java):
+##  [OOP](oop/src/main/java/xyz/catuns/oop/Oop.java):
 
 Object Oriented programming
 
@@ -49,8 +49,8 @@ retrieve student information.
 ## Challenge: [Inheritance](challenge/src/main/java/xyz/catuns/eva/Main.java):
 
 ### Goal:
-Create a `Employee` with common attributes sucha s name and salary. Then, create subclasses `Manager` 
-and `Developer` that inherit from `Manager`. Add specific attributes and methods relevant to each.
+Create an `Employee` with common attributes such as name and salary. Then, create subclasses `Manager` 
+and `Developer` that inherit from `Employee`. Add specific attributes and methods relevant to each.
 
 ### Goal
 Create a superclass `Shape` with the method `calculateArea()`. Create subclasses `Circle`, `Rectangle` and `Triangle` that
@@ -74,9 +74,10 @@ Design an abstract class `Animal` with an abstract method `makeSound()`. Create 
 
 ### Goal:
 
-Develop a class `Calculator` with a method `add()` that returns a `double`. Create variations of the `add()`
-to allow adding values of different data types (`double`, `int`, `float`) such as :
-`add(int a, int b)` or `add(double a, double b)`. The 
+Develop a class `Calculator` with a method `add()`. Create variations of the `add()`
+method to allow adding values of different data types (`double`, `int`, `float`) such as :
+`add(int a, int b)` or `add(double a, double b)`. Infer the proper return type to minimize
+data loss. Be sure to include the `@Override` annotation.
 
 
 [//]: # 'challenges-end'
