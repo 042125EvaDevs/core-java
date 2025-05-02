@@ -49,3 +49,12 @@ test-output
 # Next.js
 .next
 out
+
+# Project files
+.nx
+.editorconfig
+.npmrc
+nx.json
+package.json
+pnpm-lock.yaml
+**/*/project.json

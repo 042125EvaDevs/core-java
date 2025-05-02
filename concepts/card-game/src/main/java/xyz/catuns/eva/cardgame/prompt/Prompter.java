@@ -9,7 +9,7 @@ public class Prompter {
     String answer = ScannerSingleton.getInstance().next();
 
     /**
-     * validation checks
+     * validation checks can be done here
      */
     return answer;
   }
